@@ -23,4 +23,15 @@ function App() {
   );
 }
 
-export default App;
+export default App(){
+  return( <div className="App">
+    <h1>Weather App</h1>
+    <footer>
+    This project is created by Andrea and is {""}
+      <a href="https://github.com/andy-bot-dev20/react-weather-app"
+        target="_blank">
+        open-sourced on GitHub</a>
+    </footer>
+  </div>
+  );
+}
